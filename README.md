@@ -1,1 +1,62 @@
-# Medical-Insurance-Analysis
+# Health Insurance Analysis
+
+![](uzsvwe8q.png)
+
+## Introduction
+The insurance dataset represents a diverse demographic of policyholders, encompassing key variables such as age, sex, BMI, children, smoker, region, and charges. The objective of this analysis is to uncover patterns and relationships within the data to inform strategic decision-making for the insurance company. By examining the interplay of these variables, we aim to provide actionable insights that contribute to the refinement insurance products and pricing strategies.
+
+**_Disclaimer_**: This is a dumy dataset to demonstrate the capabilities of PowerBI.
+
+## Skills/ Concepts Demonstrated
+- Data Collection
+- Data Cleaning and Transformation
+- DAX
+- Visualization
+- Documentation and Reporting
+- Team Work
+
+#### Data Collection
+  Acquired the insurance dataset, encompassing key columns such as age, sex, BMI, children, smoker, region, and charges.
+#### Data Cleaning and Transformation
+Conducted a thorough examination of the dataset to identify and address missing values, outliers, and any inconsistencies. A new column was created for the Age group to help categorize age ranges (18-35years,36-50years,51years+).
+![](data_cleaning.png)
+#### DAX
+Utilized DAX measures to conduct a statistical analysis, computing correlation coefficients to explore relationships between age, BMI, and charges. The correlation coefficients provide insights into the strength and direction of linear associations among these variables, contributing to a deeper understanding of their interdependencies within the dataset.
+Correlation between Age and Charges|Correlation between BMI and Charges
+:---------------------------------:| :-------------------------------------:
+![](dax_1.png)                     |   ![](dax_2.png)
+#### Visualization
+Utilized various visualization techniques, including charts and graphs, to communicate insights effectively to stakeholders.
+![](report_1.PNG)
+![](report_2.PNG)
+#### Documentation and Reporting
+Documented the entire analysis process, including data cleaning steps, key findings, for transparency and replicability. Generated reports summarizing the analysis.
+#### Team work
+Worked alongside 2 amazing ladies😄: [Barbara Addo from Ghana](https://github.com/nanaakuaobota) and Rita Avwenagbiku from Nigeria.
+## Insights
+**Key Performance Indicators (KPIs):** According to our findings, the average age of individuals which reflects the demographic composition of the insured population in the dataset is 39years, average Body Mass Index (BMI) is 30.66, indicating a distribution of individuals across various weight categories. Also, total charges incurred by policy holders amount to $17.76 million, representing the aggregate financial impact on the insurance system as opposed to $13,270.42 as the average charge incurred by policy holders. 
+
+**Comparison of Charges:** Our analysis reveals that non-smokers incur 50.54% of the charges as opposed to 49.46% incurred by smokers. This finding prompts further investigation into the factors which may include non-smokers having some underlaying health conditions that may be contributing to this observed difference. A gender-specific breakdown reveals that male smokers incur higher charges than female smokers. The distinction may be influenced by gender-specific health patterns or other underlying factors. Also, individuals with fewer children tend to incur higher charges compared to those with a greater number of children. This finding raises questions about the correlation between family size and healthcare utilization.
+
+**Regional Analysis:** The South East region stands out with 91 and 273 as highest number of both smokers and non-smokers respectively. This regional disparity warrants deeper exploration into regional health trends and potential influencing factors.
+
+**Age Group Analysis:** The analysis focuses on categorizing age groups into age ranges to understand the relationship between age and charges. Individuals aged 51 and above (51+) contribute to a substantial portion of the overall charges, age group 36-50 follows with the second-highest average charges and individuals between 18-35 age group exhibit the lowest average charges. The observed trend suggests a positive correlation between age and healthcare costs within the dataset.
+
+**Correlation Between Age and Charges/Correlation Between BMI and Charges:** The total correlation between age and charges coefficient is 0.30, indicating a weak positive linear relationship. This suggests that, on average, as age increases, there is a tendency for charges to also increase, though the relationship is not very strong. On the other hand, the total correlation coefficient is 0.20, indicating a weak positive linear relationship between BMI and chahargesrges. As BMI increases, there is a tendency for charges to increase, but the influence is minimal.
+
+**Non-smokers:** Correlation between age and charges is 0.63, suggesting a moderately strong positive relationship whilst correlation between BMI and charges is 0.08, indicating a very weak positive relationship.
+
+**Smokers:** Correlation between age and charges is 0.37, suggesting a moderate positive relationship whilst correlation between BMI and charges is 0.81, indicating a strong positive relationship. While age and BMI show some correlation with charges, it's essential to recognize that correlation does not imply causation.
+
+## Recommendations
+1. Introduce customer education campaigns to raise awareness about the impact of lifestyle factors on insurance costs. Informed policyholders may make healthier choices, leading to better risk profiles and potential cost savings for both the insured and the insurance company.
+
+2. Consider developing insurance products specifically designed for different demographic segments. Tailored products could address the unique risk profiles associated with age, smoking status, and other relevant variables, providing customers with more personalized coverage options.
+
+3. Introduce incentive programs to encourage policyholders to adopt healthier lifestyles, especially those related to smoking cessation and BMI management. These initiatives could lead to reduced overall healthcare costs and improved long-term risk profiles.
+
+4. Establish a robust data analytics framework for continuous monitoring and analysis. Regularly review and update risk models based on evolving trends and emerging insights, ensuring that pricing strategies remain responsive to changing market dynamics.
+
+## Conclusion
+In conclusion, further exploration is needed to understand the factors contributing to the correlations between data variables. This could involve investigating specific health conditions, lifestyle factors, or medical treatments associated with policy holders.
+Additional analyses, such as regression modeling, may help uncover more nuanced relationships and potential causal factors.
